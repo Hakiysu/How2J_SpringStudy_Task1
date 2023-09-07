@@ -1,6 +1,9 @@
 package com.how2java.pojo;
 
 public class Product {
+    private int id;
+    private String name;
+
     public int getId() {
         return id;
     }
@@ -16,7 +19,4 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
-
-    private int id;
-    private String name;
 }
